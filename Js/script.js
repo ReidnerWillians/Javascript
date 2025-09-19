@@ -49,8 +49,12 @@ while (x < 10){
 }*/ 
 
 
-let valor = 15
+/*let valor = 15
 for (var x = 0; x <= valor; x++){
     document.writeln('O valor de x é ' + x + '<br>')
-}
+}*/
+
+let data = new Date()
+    document.writeln
+console.log(data.getUTCMonthours());
 
