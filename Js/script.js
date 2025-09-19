@@ -46,7 +46,7 @@ function entrar() {
 while (x < 10){
     document.writeln('O valor de x é ' + x + '<br>')
     x++    
-}*/ 
+}*/
 
 
 /*let valor = 15
@@ -54,7 +54,14 @@ for (var x = 0; x <= valor; x++){
     document.writeln('O valor de x é ' + x + '<br>')
 }*/
 
-let data = new Date()
-    document.writeln
-console.log(data.getUTCMonthours());
+let peso;
+let altura;
+let imc;
+let resultado;
 
+function calcular(event) {
+    event.preventDefault();
+
+    peso = document.getElementById('peso').value;
+    altura = document.getElementById('altura').value;
+}

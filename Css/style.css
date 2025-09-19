@@ -1,18 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 body{
-    
     display: flex;
     flex-direction: column;
     align-items: center;   
 }
 
-
-
-button{
-    border-radius: 10px;
-    background-color: rgb(43, 109, 109);
-    width: 120px;
-    height: 60px;
-    color: white;
-    text-align: center;
-
+label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+input::placeholder{
+    font-size: 10px;
+    font-family: sans-serif;
 }
