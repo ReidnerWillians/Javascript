@@ -54,14 +54,4 @@ for (var x = 0; x <= valor; x++){
     document.writeln('O valor de x é ' + x + '<br>')
 }*/
 
-let peso;
-let altura;
-let imc;
-let resultado;
 
-function calcular(event) {
-    event.preventDefault();
-
-    peso = document.getElementById('peso').value;
-    altura = document.getElementById('altura').value;
-}

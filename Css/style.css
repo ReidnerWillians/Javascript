@@ -1,45 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
 
 body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
-}
-
-label{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-input::placeholder{
-    font-size: 10px;
-    font-family: sans-serif;
-    text-align: center;
-    
-}
-
-#peso{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-
-#altura{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-    padding: 10px;
-}
-
-#submit{
-    padding: 5px;
-    margin-left: 50px;
+    background-color: #efdcd5;
 }
